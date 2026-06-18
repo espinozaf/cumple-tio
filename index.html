@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Feliz Cumpleaños Tío</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="pantallaInicio" class="pantalla">
+
+    <h1>🎉 Feliz Cumpleaños 🎉</h1>
+
+    <button id="abrirBtn">
+        Abrir Tarjeta
+    </button>
+
+</div>
+
+<div id="contenido" class="oculto">
+
+    <audio id="musica" autoplay loop>
+        <source src="musica.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="globos">
+        <div class="globo"></div>
+        <div class="globo"></div>
+        <div class="globo"></div>
+        <div class="globo"></div>
+    </div>
+
+    <div class="card">
+
+        <img src="foto-tio.jpg" alt="Mi Tío">
+
+        <h2>Querido Tío</h2>
+
+        <p id="mensaje"></p>
+
+    </div>
+
+    <h1 class="feliz">
+        🎂 ¡Feliz Cumpleaños! 🎂
+    </h1>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
