@@ -134,3 +134,44 @@ transform:translateY(0);
 transform:translateY(-130vh);
 }
 }
+
+/* Diseño para celulares */
+@media (max-width: 768px) {
+
+    .pantalla h1{
+        font-size: 2rem;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .card{
+        width: 90%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .card img{
+        width: 180px;
+        height: 180px;
+    }
+
+    .card h2{
+        font-size: 1.5rem;
+    }
+
+    .card p{
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .feliz{
+        font-size: 1.8rem;
+        padding: 10px;
+    }
+
+    button{
+        width: 80%;
+        max-width: 300px;
+    }
+
+}
